@@ -13,7 +13,7 @@ var lichin_index = function() {
 					flag = true;
 				}
 			}
-			$('body').css('background-image','url(./images/bg/'+cur_index+'.jpg)');
+			$('body').css('background-image','url(http://7xnfy1.com1.z0.glb.clouddn.com/'+cur_index+'.jpg)');
 		},25000);
 	}
 	return {

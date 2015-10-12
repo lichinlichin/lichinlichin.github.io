@@ -31,4 +31,5 @@ body {
 }
 .square-header h1 {
 	font-size: 30px;
+	text-shadow: #EEEEEE 1px 1px 1px;
 }
