@@ -3,7 +3,7 @@ html,body {
 	overflow: hidden;
 }
 body {
-	background-image: url(../images/bg/1.jpg);
+	background-image: url(http://7xnfy1.com1.z0.glb.clouddn.com/1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	 -webkit-transition: background-image 3500ms ease-in-out 0s;
@@ -28,8 +28,54 @@ body {
 }
 .square-header {
 	text-align: center;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #999;
 }
 .square-header h1 {
 	font-size: 30px;
-	text-shadow: #EEEEEE 1px 1px 1px;
+	text-shadow: #EEE 1px 1px 1px;
+}
+.square-body {
+	overflow: hidden;
+	margin-top: 70px;
+}
+.square-body>div {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+.square-body>div>a {
+	display: inline-block;
+	text-decoration: none;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+.square-body>div>a:hover {
+	color: #18BC9C;
+}
+.square-body>div>a:hover i {
+	font-size: 450%;
+}
+.icon {
+	width: 70px;
+	height: 70px;
+}
+.icon i {
+	font-size: 400%;
+	-webkit-transition: font-size 1s;
+	-moz-transition: font-size 1s;
+	-o-transition: font-size 1s;
+	transition: font-size 1s;
+}
+.description {
+	margin-top: 10px;
+}
+.square-footer {
+	position: absolute;
+	width: 572px;
+	bottom: 7px;
+	color: #EEE;
+	text-align: center;
 }
