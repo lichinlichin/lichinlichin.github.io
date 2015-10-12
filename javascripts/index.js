@@ -1,7 +1,7 @@
 var lichin_index = function() {
 	var lichin_colorbgtimer = null,
 		  cur_index = 1,rand_index;
-	var max = 13,min = 1,flag = false;
+	var max = 5,min = 1,flag = false;
 	var colorbgchanging = function() {
 		setInterval(function(){
 			var dif = max - min;
