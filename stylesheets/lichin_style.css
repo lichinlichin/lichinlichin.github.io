@@ -89,7 +89,7 @@ html {
 	-webkit-tap-highlight-color: transparent;
 	-moz-osx-font-smoothing: grayscale;
 	-ms-text-size-adjust: 100%;
-	font-family: 'Quattrocento Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Quattrocento Sans', 'Helvetica Neue', 'Microsoft Yahei', Helvetica, Arial, sans-serif;
 }
 a:focus {
 	outline: none;
