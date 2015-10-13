@@ -1,0 +1,63 @@
+html {
+	overflow-y: auto;
+}
+body {
+	background-color: #00104B;
+}
+.navbar {
+	position: fixed;
+	height: 38px;
+	width: 100%;
+	box-shadow: rgba(0,0,0,0.5) 0 1px 20px;
+	font-weight: bold;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.navbar a {
+	text-decoration: none;
+}
+.nav-bar {
+	position: absolute;
+	left: 5%;
+}
+.nav-bar li {
+	float: left;
+	margin-right: 20px;
+}
+.nav-bar li>a {
+	line-height: 38px;
+}
+.nav-info {
+	clear: both;
+	line-height: 38px;
+	position: absolute;
+	right: 8%;
+}
+.nav-info>a {
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+.profile-image {
+	width: 38px;
+	border-radius: 50%;
+	overflow: hidden;
+	line-height: 0;
+}
+.profile-image img {
+	width: 100%;
+}
+#description {
+	overflow-y: visible;
+	max-height: 740px;
+}
+
+.page-body {
+	position: relative;
+	min-height: 2800px; 
+}
+.article-list {
+
+}

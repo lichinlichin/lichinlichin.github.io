@@ -145,6 +145,9 @@ img {
 	border: 0;
 	-ms-interpolation-mode: bicubic;
 	max-width: 100%;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
 }
 input[type="button"], input[type="submit"], input[type="reset"] {
 	-webkit-appearance: none;
